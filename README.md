@@ -21,7 +21,7 @@ The system follows a Retrieval-Augmented Generation (RAG) approach:
 
 1️. Retrieval-Augmented Generation (RAG)
 
-Instead of relying solely on the LLM’s internal knowledge, the system retrieves context from a vector database, improving accuracy and relevance.
+- Instead of relying solely on the LLM’s internal knowledge, the system retrieves context from a vector database, improving accuracy and relevance.
 
 2. Modular Structure
 
@@ -31,7 +31,7 @@ Instead of relying solely on the LLM’s internal knowledge, the system retrieve
     
 3. Incorporation of Web Scraping:
    
-Ensures real-time and updated travel information instead of relying solely on static datasets.
+- Ensures real-time and updated travel information instead of relying solely on static datasets.
 
 ### How to Run 🚀
 
