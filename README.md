@@ -6,23 +6,20 @@ The AI Travel Consultant is a conversational AI system that provides travel reco
 
 Approach
 
-The system follows a Retrieval-Augmented Generation (RAG) approach:
+- The system follows a Retrieval-Augmented Generation (RAG) approach:
 
-Retrieve Relevant Information: Uses a ChromaDB vector store to retrieve contextual information.
+- Retrieve Relevant Information: Uses a ChromaDB vector store to retrieve contextual information.
 
-Generate Responses: Passes the retrieved context and chat history to MistralAI for natural language generation.
-
-Maintain Conversational Memory: Stores chat history using LangChain's ConversationBufferMemory, ensuring coherent responses over multiple turns.
+- Generate Responses: Passes the retrieved context and query to MistralAI for natural language generation.
 
 Tools & Technologies
 
-LangChain → Framework for building LLM applications
+- LangChain → Framework for building LLM applications
 
-MistralAI → Language model for response generation
+- MistralAI → Language model for response generation
 
-ChromaDB → Vector database for document retrieval
+- ChromaDB → Vector database for document retrieval
 
-Python 3.9+ → Programming language
 
 Key Design Decisions
 
