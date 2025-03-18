@@ -47,19 +47,10 @@ Step 3: Ask Questions!
 
 Example:
 
-🌍 Welcome to AI Travel Consultant! 🌍
+    🌍 Welcome to AI Travel Consultant! 🌍
 
-Ask me about travel destinations (or type 'exit' to quit): Where should I travel in Europe?
-🌍 AI Travel Consultant Recommendation:
-I recommend visiting Italy for its rich history and amazing cuisine!
+     Ask me about travel destinations (or type 'exit' to quit): Plan me a 3 day itinerary for Udaipur
 
-Future Improvements
-
-Web & Mobile UI → Deploy as a web app.
-
-Fine-tuned Retrieval → Improve document chunking & ranking.
-
-Multi-modal Support → Add image-based travel suggestions.
 
 👨‍💻 Built with LangChain & MistralAI for smarter travel recommendations! ✈️
 
