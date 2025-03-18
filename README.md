@@ -37,7 +37,7 @@ The system follows a Retrieval-Augmented Generation (RAG) approach:
 
 Step 1: Install Dependencies
 
-    pip install langchain_mistralai chromadb langchain_core langchain_community mistralai
+    pip install langchain_mistralai langchain_core langchain_community scrapy
        
 Step 2: Run the Chatbot
 
