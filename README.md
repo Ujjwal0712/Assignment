@@ -19,26 +19,29 @@ The system follows a Retrieval-Augmented Generation (RAG) approach:
 
 ### Key Design Decisions
 
-1️⃣ Retrieval-Augmented Generation (RAG)
+1️. Retrieval-Augmented Generation (RAG)
 
 Instead of relying solely on the LLM’s internal knowledge, the system retrieves context from a vector database, improving accuracy and relevance.
 
-2️⃣ Modular Structure
+2. Modular Structure
 
-rag_pipeline.py: Contains functions for initializing the RAG pipeline and generating answers.
+- rag_pipeline.py: Contains functions for initializing the RAG pipeline and generating answers.
+- vector_store.py: Handles vector database loading.
+- main.py: Provides the CLI interface for user interaction.
+    
+3. Incorporation of Web Scraping:
+   
+Ensures real-time and updated travel information instead of relying solely on static datasets.
 
-vector_store.py: Handles vector database loading.
-
-main.py: Provides the CLI interface for user interaction.
-
-How to Run 🚀
+### How to Run 🚀
 
 Step 1: Install Dependencies
 
+    pip install langchain_mistralai chromadb langchain_core langchain_community mistralai
        
 Step 2: Run the Chatbot
 
-      python main.py
+    python main.py
 
 Step 3: Ask Questions!
 
