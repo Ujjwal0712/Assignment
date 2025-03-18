@@ -1,23 +1,19 @@
-AI Travel Consultant
+# AI Travel Consultant
 
-Overview
+### Overview
 
 The AI Travel Consultant is a conversational AI system that provides travel recommendations based on user queries. It leverages a Retrieval-Augmented Generation (RAG) pipeline to enhance responses by retrieving relevant information from a vector database before generating an answer. The chatbot maintains memory for a more engaging and context-aware conversation.
 
-Approach
-
-- The system follows a Retrieval-Augmented Generation (RAG) approach:
-
+The system follows a Retrieval-Augmented Generation (RAG) approach:
+- Web Scraping: Extracts real-time travel data such as weather, popular destinations, and current travel restrictions.
 - Retrieve Relevant Information: Uses a ChromaDB vector store to retrieve contextual information.
-
 - Generate Responses: Passes the retrieved context and query to MistralAI for natural language generation.
 
-Tools & Technologies
+### Tools & Technologies:
 
 - LangChain → Framework for building LLM applications
-
+-  Scrapy: For extracting travel-related data from websites.
 - MistralAI → Language model for response generation
-
 - ChromaDB → Vector database for document retrieval
 
 
