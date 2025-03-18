@@ -3,9 +3,8 @@ from modules.rag_pipeline import generate_answer
 def main():
     print("🌍 Welcome to AI Travel Consultant! 🌍")
     
-    
     while True:
-        query = input("\nAsk me about travel destinations (or type 'exit' to quit): ").strip()
+        query = input("\nAsk me about travel destinations (or type 'exit' to quit): ")
         
         if query.lower() == 'exit':
             print("\n👋 Thanks for using AI Travel Consultant! Safe travels! ✈️")
