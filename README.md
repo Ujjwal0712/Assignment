@@ -17,19 +17,13 @@ The system follows a Retrieval-Augmented Generation (RAG) approach:
 - ChromaDB → Vector database for document retrieval
 
 
-Key Design Decisions
+### Key Design Decisions
 
 1️⃣ Retrieval-Augmented Generation (RAG)
 
 Instead of relying solely on the LLM’s internal knowledge, the system retrieves context from a vector database, improving accuracy and relevance.
 
-2️⃣ Conversational Memory
-
-Uses ConversationBufferMemory to track previous interactions.
-
-Ensures coherent and context-aware responses.
-
-3️⃣ Modular Structure
+2️⃣ Modular Structure
 
 rag_pipeline.py: Contains functions for initializing the RAG pipeline and generating answers.
 
@@ -41,11 +35,10 @@ How to Run 🚀
 
 Step 1: Install Dependencies
 
-pip install langchain_mistralai chromadb langchain_core langchain_community mistralai
-
+       
 Step 2: Run the Chatbot
 
-python main.py
+      python main.py
 
 Step 3: Ask Questions!
 
